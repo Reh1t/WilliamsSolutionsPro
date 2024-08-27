@@ -1,0 +1,226 @@
+.williamsSolutionsPro {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.williams20logo3transparentIcon {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  border-radius: var(--br-69xl);
+  object-fit: contain;
+}
+.buttonsIcon {
+  cursor: pointer;
+}
+.buttonsIcon,
+.buttonsIcon1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  min-height: 40px;
+}
+.leftSection,
+.socialIcons {
+  display: flex;
+  justify-content: flex-start;
+}
+.socialIcons {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+}
+.leftSection {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-5xl);
+}
+.plumbingSolutions,
+.williamsServices {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.plumbingSolutions {
+  color: var(--color-black);
+  cursor: pointer;
+}
+.septic {
+  align-self: stretch;
+}
+.excavationAggregate,
+.septic {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.items,
+.servicesInfo {
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--spacing-s);
+  color: var(--color-darkslategray-100);
+}
+.servicesInfo {
+  width: 187px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.aboutUs,
+.contactUs {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 71px;
+  cursor: pointer;
+}
+.contactUs {
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+  min-width: 86px;
+}
+.links {
+  width: 253px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.solarphoneLinearIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.callUs7054928910 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: calc(100% - 57px);
+}
+.phoneNumber {
+  width: 407px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.svgIcon {
+  height: 25px;
+  width: 38px;
+  position: relative;
+}
+.emailUs,
+.infowilliamsplumbingsolutions {
+  position: relative;
+  line-height: 25.6px;
+  font-weight: 600;
+}
+.emailUs {
+  letter-spacing: -0.01px;
+  display: inline-block;
+  min-width: 70.4px;
+}
+.infowilliamsplumbingsolutions {
+  white-space: nowrap;
+}
+.contactDetails,
+.contactMethods,
+.email {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.email {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl-8);
+}
+.contactDetails,
+.contactMethods {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactMethods {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base-8);
+  color: var(--color-darkslategray-200);
+}
+.contactDetails {
+  gap: var(--gap-5xl);
+}
+.williamsSolutionsPro1 {
+  position: relative;
+  line-height: 24px;
+  color: var(--dark-blue);
+  display: inline-block;
+  max-width: 100%;
+}
+.contactInfo,
+.navigationFooter {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.contactInfo {
+  width: 422px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 216px;
+}
+.navigationFooter {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-body-2-size);
+  color: var(--color-black);
+  font-family: var(--body-body-2);
+}
+@media screen and (max-width: 1100px) {
+  .contactInfo {
+    min-height: auto;
+  }
+  .navigationFooter {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .williamsSolutionsPro {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .phoneNumber {
+    gap: var(--gap-base);
+  }
+  .email {
+    flex-wrap: wrap;
+  }
+}

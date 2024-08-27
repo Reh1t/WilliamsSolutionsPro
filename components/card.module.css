@@ -1,0 +1,54 @@
+.photoIcon {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.plumbing {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 89px;
+}
+.arrowForwardIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.card1,
+.serviceNameAndLink {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-xl);
+}
+.card1 {
+  width: 300px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--body-body-2);
+}
+@media screen and (max-width: 450px) {
+  .plumbing {
+    font-size: var(--body-body-2-size);
+    line-height: 26px;
+  }
+}
