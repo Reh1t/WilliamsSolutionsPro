@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import Card from "./card";
-import styles from "./services.module.css";
 
 export type ServicesType = {
   className?: string;
@@ -22,12 +21,24 @@ const Services: NextPage<ServicesType> = ({ className = "" }) => {
     window.open("https://williams-septic.vercel.app/");
   }, []);
 
+  const onCard2ContainerClick = useCallback(() => {
+    window.open("https://williamsexcavation.vercel.app/");
+  }, []);
+
+  const onCard5ContainerClick = useCallback(() => {
+    window.open("https://williamslogging.vercel.app/");
+  }, []);
+
   return (
-    <section className={[styles.services, className].join(" ")}>
-      <div className={styles.heading}>
-        <h1 className={styles.ourServices}>Our Services</h1>
+    <section
+      className={`bg-white overflow-hidden shrink-0 flex flex-col items-center justify-center py-[52px] px-12 box-border gap-[37px] max-w-full text-left text-13xl text-black font-body-body-2 mq750:gap-[18px] mq750:py-[34px] mq750:px-6 mq750:box-border ${className}`}
+    >
+      <div className="flex flex-row items-center justify-center p-2.5">
+        <h1 className="m-0 relative text-inherit leading-[32px] font-bold font-[inherit] mq750:text-7xl mq750:leading-[26px] mq450:text-lgi mq450:leading-[19px]">
+          Our Services
+        </h1>
       </div>
-      <div className={styles.servicesCards}>
+      <div className="w-[1110px] flex-1 overflow-x-auto flex flex-row items-center flex-wrap justify-center gap-5 max-w-full text-xl py-5">
         <Card
           onPlumbingTextClick={onCard1ContainerClick}
           photo="/photo@2x.png"
@@ -37,22 +48,21 @@ const Services: NextPage<ServicesType> = ({ className = "" }) => {
           onPlumbingTextClick={onCard4ContainerClick}
           photo="/photo-1@2x.png"
           plumbing="Water Treatment"
-          propDisplay="unset"
-          propMinWidth="unset"
         />
         <Card
           onPlumbingTextClick={onCard3ContainerClick}
           photo="/photo-2@2x.png"
           plumbing="Septic"
-          propDisplay="inline-block"
-          propMinWidth="60px"
         />
         <Card
-          onPlumbingTextClick={onCard3ContainerClick}
+          onPlumbingTextClick={onCard2ContainerClick}
           photo="/photo-3@2x.png"
           plumbing={`Excavation & Aggregate`}
-          propDisplay="unset"
-          propMinWidth="unset"
+        />
+        <Card
+          onPlumbingTextClick={onCard5ContainerClick}
+          photo="/williams-logging.png"
+          plumbing={`Logging`}
         />
       </div>
     </section>

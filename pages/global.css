@@ -1,80 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
-  margin: 0;
-  line-height: normal;
+  @apply leading-[normal] m-0;
 }
-:root {
-  /* fonts */
-  --body-body-2: Inter;
-
-  /* font sizes */
-  --body-body-2-size: 16px;
-  --font-size-base-8: 15.8px;
-  --font-size-5xl: 24px;
-  --font-size-lgi: 19px;
-  --font-size-xl: 20px;
-  --font-size-13xl: 32px;
-  --font-size-7xl: 26px;
-
-  /* Colors */
-  --color-white: #fff;
-  --color-whitesmoke: #f5f6f7;
-  --dark-blue: #15283d;
-  --color-gray-100: rgba(0, 0, 0, 0.65);
-  --color-darkslategray-100: #454545;
-  --color-darkslategray-200: #2d2d2d;
-  --color-darkslategray-300: rgba(45, 45, 45, 0.1);
-  --color-black: #000;
-  --color-steelblue-100: #68a3d2;
-  --color-steelblue-200: #388dd0;
-  --color-mediumslateblue: #3763f4;
-  --color-deepskyblue: #52a6eb;
-  --color-royalblue: #527dff;
-
-  /* Spacing */
-  --spacing-s: 24px;
-  --spacing-xs: 8px;
-
-  /* Gaps */
-  --gap-xl: 20px;
-  --gap-5xl: 24px;
-  --gap-base: 16px;
-  --gap-xl-8: 20.8px;
-  --gap-14xl: 33px;
-  --gap-5xs: 8px;
-  --gap-18xl: 37px;
-  --gap-lg: 18px;
-  --gap-xs: 12px;
-  --gap-12xl: 31px;
-  --gap-mini: 15px;
-  --gap-3xs: 10px;
-
-  /* Paddings */
-  --padding-13xl: 32px;
-  --padding-33xl: 52px;
-  --padding-29xl: 48px;
-  --padding-15xl: 34px;
-  --padding-5xl: 24px;
-  --padding-11xl: 30px;
-  --padding-sm: 14px;
-  --padding-3xs: 10px;
-  --padding-81xl: 100px;
-  --padding-127xl: 146px;
-  --padding-46xl: 65px;
-  --padding-17xl: 36px;
-  --padding-54xl: 73px;
-  --padding-10xl: 29px;
-  --padding-23xl: 42px;
-  --padding-8xl: 27px;
-  --padding-2xl: 21px;
-  --padding-6xs: 7px;
-  --padding-base: 16px;
-  --padding-5xs: 8px;
-  --padding-mini: 15px;
-
-  /* Border radiuses */
-  --br-9xs: 4px;
-  --br-69xl: 88px;
-  --br-xl: 20px;
-  --br-13xl: 32px;
+*,
+::before,
+::after {
+  border-width: 0;
 }

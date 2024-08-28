@@ -3,11 +3,10 @@ import NavHEADER from "../components/nav-h-e-a-d-e-r";
 import HeroSection from "../components/hero-section";
 import Services from "../components/services";
 import NavigationFooter from "../components/navigation-footer";
-import styles from "./index.module.css";
 
 const PortalPge: NextPage = () => {
   return (
-    <div className={styles.portalPge}>
+    <div className="w-full relative bg-white overflow-hidden flex flex-col items-center justify-start leading-[normal] tracking-[normal]">
       <NavHEADER />
       <HeroSection />
       <Services />
