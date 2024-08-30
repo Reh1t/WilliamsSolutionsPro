@@ -136,13 +136,13 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
           </div>
           <div
             className="relative leading-[150%] font-medium cursor-pointer"
-            onClick={onWaterTreatmentTextClick}
+            onClick={onExcavationTextClick}
           >
             Excavation / Aggregate
           </div>
           <div
             className="relative leading-[150%] font-medium cursor-pointer"
-            onClick={onWaterTreatmentTextClick}
+            onClick={onLoggingTextClick}
           >
             Logging
           </div>
