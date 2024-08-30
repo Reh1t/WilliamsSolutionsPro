@@ -8,12 +8,12 @@ export type ServicesType = {
 
 const Services: NextPage<ServicesType> = ({ className = "" }) => {
   const onCard1ContainerClick = useCallback(() => {
-    window.open("https://williamsplumbingsolutions.vercel.app/");
+    window.open("https://williams-plumbing-solutions.vercel.app/");
   }, []);
 
   const onCard4ContainerClick = useCallback(() => {
     window.open(
-      "https://williamsplumbingsolutions.vercel.app/more-u-v-water-purification"
+      "https://williams-plumbing-solutions.vercel.app/water-treatment"
     );
   }, []);
 

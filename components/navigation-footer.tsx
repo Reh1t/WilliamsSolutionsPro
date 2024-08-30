@@ -29,7 +29,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
   }, []);
 
   const onPlumbingSolutionsTextClick = useCallback(() => {
-    window.open("https://williamsplumbingsolutions.vercel.app/");
+    window.open("https://williams-plumbing-solutions.vercel.app/");
   }, []);
 
   const onSepticTextClick = useCallback(() => {
@@ -38,7 +38,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
 
   const onWaterTreatmentTextClick = useCallback(() => {
     window.open(
-      "https://williamsplumbingsolutions.vercel.app/water-treatment"
+      "https://williams-plumbing-solutions.vercel.app/water-treatment"
     );
   }, []);
   const onExcavationTextClick = useCallback(() => {
@@ -61,6 +61,10 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
 
   const onContactUsTextClick = useCallback(() => {
     window.open("https://getjobber.com/");
+  }, []);
+
+  const onBlogTextClick = useCallback(() => {
+    window.open("https://blog-delta-three-74.vercel.app/");
   }, []);
 
   return (
@@ -144,7 +148,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
           </div>
         </div>
       </div>
-      <div className="w-[422px] flex flex-col items-start justify-between min-h-[216px] max-w-full mq1100:min-h-[auto]">
+      <div className="flex flex-col items-start justify-between min-h-[216px] max-w-full mq1100:min-h-[auto]">
         <div className="self-stretch flex flex-col items-start justify-start gap-6 max-w-full">
           <div className="w-[253px] flex flex-row items-start justify-between gap-5">
             <div
@@ -158,6 +162,12 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
               onClick={onContactUsTextClick}
             >
               Contact Us
+            </div>
+            <div
+              className="relative leading-[150%] font-medium text-darkslategray-100 inline-block min-w-[86px] cursor-pointer"
+              onClick={onBlogTextClick}
+            >
+              Blog
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-4 max-w-full text-base-8 text-darkslategray-200">
@@ -183,13 +193,13 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
                 Email Us:
               </div>
               <div className="relative leading-[25.6px] font-semibold whitespace-nowrap">
-                info@williamsplumbingsolutions.ca
+              info@williamssolutions.pro
               </div>
             </div>
           </div>
         </div>
         <div className="relative leading-[24px] text-dark-blue inline-block max-w-full">
-          © Williams Solutions Pro 2024. All rights reserved.
+          © Williams Solutions.Pro 2024. All rights reserved.
         </div>
       </div>
     </footer>
