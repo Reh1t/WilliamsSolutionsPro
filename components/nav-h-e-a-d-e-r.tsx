@@ -7,7 +7,7 @@ export type NavHEADERType = {
 
 const NavHEADER: NextPage<NavHEADERType> = ({ className = "" }) => {
   const onPlumbingTextClick = useCallback(() => {
-    window.open("https://williamsplumbingsolutions.vercel.app/");
+    window.open("https://williams-plumbing-solutions.vercel.app/");
   }, []);
 
   const onSepticTextClick = useCallback(() => {
@@ -16,7 +16,7 @@ const NavHEADER: NextPage<NavHEADERType> = ({ className = "" }) => {
 
   const onWaterTreatmentTextClick = useCallback(() => {
     window.open(
-      "https://williamsplumbingsolutions.vercel.app/more-u-v-water-purification"
+      "https://https://williams-plumbing-solutions.vercel.app/water-treatment"
     );
   }, []);
 
