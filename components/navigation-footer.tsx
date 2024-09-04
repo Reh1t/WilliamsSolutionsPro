@@ -60,7 +60,8 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
   }, []);
 
   const onContactUsTextClick = useCallback(() => {
-    window.open("https://getjobber.com/");
+    window.open(      "https://clienthub.getjobber.com/client_hubs/c6ab68fa-74c2-4d46-9066-ff2210b88264/public/work_request/new?source=social_media"
+);
   }, []);
 
   const onBlogTextClick = useCallback(() => {
