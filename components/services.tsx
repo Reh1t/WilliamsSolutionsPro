@@ -51,12 +51,12 @@ const Services: NextPage<ServicesType> = ({ className = "" }) => {
         />
         <Card
           onPlumbingTextClick={onCard3ContainerClick}
-          photo="/photo-2@2x.png"
+          photo="/rectangle-4@2x.png"
           plumbing="Septic"
         />
         <Card
           onPlumbingTextClick={onCard2ContainerClick}
-          photo="/photo-3@2x.png"
+          photo="/frame-8@2x.png"
           plumbing={`Excavation & Aggregate`}
         />
         <Card
